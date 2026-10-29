@@ -2,21 +2,115 @@ import { useState } from 'react'
 import { BrowserRouter,Routes, Route , useNavigate } from 'react-router';
 import './App.css'
 
+function NavBar(){
+  const navigate = useNavigate();
+  return(
+  <>
+  <div className="top-bar">
+     <a href="mailto:contact@italentworkspace.nl">contact@italentworkspace.nl</a>
+    <a href="https://maps.app.goo.gl/ZAUhJPrriudF5GG9A">Bijlmerdreef 17, 1104 CV Amsterdam, Nederland</a>
+  </div>
+  <nav>
+    <div className="logo">
+        LOGO
+    </div>
+
+
+    <div className="nav-links">
+      <button onClick={()=> navigate('/')}>Home</button>
+      <button onClick={()=> navigate('/diensten')}>Diensten</button>
+      <button onClick={()=> navigate('/portofolio')}>Portofolio</button>
+      <button onClick={()=> navigate('/stage')}>Stage</button>
+      <button onClick={()=> navigate('/reviews')}>Reviews</button>
+      <button onClick={()=> navigate('/overons')}>Over Us</button>
+    </div>
+  </nav>
+  </>
+);
+}
+
 function Home() {
   const navigate = useNavigate();
 
+return (
+  <>
+  <header>
+    <NavBar/>
+  </header>
 
+  <main>
+    <div className="headline">
+      <h2>ITalent Workspace</h2>
+      <h1>Headline</h1>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing
+         dawdwadwa
+         dwa
+         dwa
+         dwad
+         daw
+         </h3>
+    </div>
+    
+  </main>
+  </>
+)
 }
 
-function AboutUs(){
+function Diensten() {
+  const navigate = useNavigate();
+
+return (
+  <>
+  <header>
+    <NavBar/>
+  </header>
+  </>
+)
+}
+function Portofolio() {
+  const navigate = useNavigate();
+
+return (
+  <>
+  <header>
+    <NavBar/>
+  </header>
+  </>
+)
+}
+
+function Stage() {
+  const navigate = useNavigate();
+
+return (
+  <>
+  <header>
+    <NavBar/>
+  </header>
+  </>
+)
+}
+
+function Reviews() {
+  const navigate = useNavigate();
+
+return (
+  <>
+  <header>
+    <NavBar/>
+  </header>
+  </>
+)
+}
+
+
+function Over(){
   const navigate = useNavigate();
 
   return (
     <>
     <header>
-      <nav>
-       {/* <button onClick={()=> navigate('/')}>Home</button> */}
-      </nav>
+      <NavBar/>
     </header>
     <main>
 
@@ -36,7 +130,11 @@ return(
 <BrowserRouter>
   <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/about" element={<AboutUs/>}/>
+    <Route path="/diensten" element={<Diensten/>}/>
+    <Route path="/portofolio" element={<Portofolio/>}/>
+    <Route path="/stage" element={<Stage/>}/>
+    <Route path="/reviews" element={<Reviews/>}/>
+    <Route path="/overons" element={<Over/>}/>
   </Routes>
 </BrowserRouter>
 )
