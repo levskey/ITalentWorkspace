@@ -5,9 +5,7 @@ import './App.css'
 function Home() {
   const navigate = useNavigate();
 
-  return (
 
-  );
 }
 
 function AboutUs(){
