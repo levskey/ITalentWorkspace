@@ -42,13 +42,7 @@ return (
     <div className="headline">
       <h2>ITalent Workspace</h2>
       <h1>Headline</h1>
-      <h3>Lorem ipsum dolor sit amet consectetur adipisicing
-         dawdwadwa
-         dwa
-         dwa
-         dwad
-         daw
-         </h3>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi eos voluptatem quos. Reiciendis recusandae numquam illum dolore hic odio at maiores. Eum pariatur odit nulla repellendus impedit. Deleniti, laudantium.</h3>
     </div>
     
   </main>
