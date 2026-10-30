@@ -7,13 +7,9 @@ body {
 
 }
 
-nav{
-    margin-top: 20px;
-    margin-right: 100px;
-    display: flex;
-}
+/* top-bar Section */
 
-.top-bar{
+.top-bar {
     margin-right: 170px;
     
     justify-content: right;
@@ -22,20 +18,28 @@ nav{
 }
 
 
-.top-bar a{
+.top-bar a {
     color: black;
     text-decoration: none;
 }
 
 
 
+
+/* nav Section */
 .logo {
     margin-left: 105px;
     color: rgb(170, 162, 162);
     font-size:x-large;
 }
 
-.nav-links{
+nav {
+    margin-top: 20px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.nav-links {
     margin-left: auto;
     margin-right: 105px;
 }
@@ -44,14 +48,16 @@ nav{
     cursor: pointer;
 }
 
-.nav-links button{
+.nav-links button {
     font-size: x-large;
     background: none;
     outline: none;
     border: none;
 }
 
-.headline{
+
+/* headline Section */
+.headline {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -62,5 +68,46 @@ nav{
     text-align: center;
     width: 500px;
 }
+
+.headlinebuttons {
+    justify-self: center;
+    display: flex;
+    column-gap: 10px;
+}
+
+.headlinebuttons button {
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    background-color: rgb(212, 212, 212);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.headlinebuttons button:hover {
+    cursor: pointer;
+}
+
+/* hero Section */
+
+.herocontainer {
+    display: flex;
+    justify-self: center;
+}
+
+.herosection h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.herocontainer div {
+    margin: 10px;
+    background-color: rgb(212, 212, 212);
+    height: 350px;
+    width: 275px;
+}
+
+
 
 

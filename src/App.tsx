@@ -44,7 +44,21 @@ return (
       <h1>Headline</h1>
       <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi eos voluptatem quos. Reiciendis recusandae numquam illum dolore hic odio at maiores. Eum pariatur odit nulla repellendus impedit. Deleniti, laudantium.</h3>
     </div>
-    
+    <div className="headlinebuttons">
+      <button>Button</button> 
+      <button>Button</button> 
+    </div>
+    <section className="herosection">
+      <h1>ONZE DIENSTEN</h1>
+
+      <div className="herocontainer">
+        
+        <div className="herocards"></div>
+        <div className="herocards"></div>
+        <div className="herocards"></div>
+      </div>
+    </section>
+  
   </main>
   </>
 )
