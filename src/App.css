@@ -102,7 +102,8 @@ nav {
 }
 
 .herocontainer div {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: rgb(212, 212, 212);
     height: 350px;
     width: 275px;
