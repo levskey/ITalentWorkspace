@@ -110,5 +110,44 @@ nav {
 }
 
 
+/* portfolio Section */
+.portofoliosection {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.portofoliosection h3 {
+    width: auto;
+}
+.portofoliosection h3, h1 {
+    text-align: center;
+}
+
+.projectcard p{
+    width: 500px;
+    height: 100px;
+}
+
+.projectcard{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.projectcard button{
+    width: 190px;
+    height: 45px;
+    font-weight: 900;
+    background-color: rgb(92, 92, 92);
+    border: none;
+    color: white;
+}
+
 
 

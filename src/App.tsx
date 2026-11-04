@@ -60,7 +60,16 @@ return (
     </section>
 
     <section className="portofoliosection">
+      <h3 className="top">Portofolio</h3>
+      <h1 className="second">Onze projecten</h1>
 
+      <div className="projectcard">
+        <h1 className="projlogo">LOGO</h1>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos animi officiis nemo nesciunt inventore amet voluptatibus deserunt exercitationem facere commodi perspiciatis voluptatum nobis nulla beatae, fugit ipsum numquam, eligendi explicabo!</p>
+        
+        <button>Button</button>
+      </div>
     </section>  
   </main>
   </>
